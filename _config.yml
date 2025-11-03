@@ -8,12 +8,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Kat Volkova
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+name                     : Kat Volkova
+description              : Kat Volkova - Projects and CV 
+baseurl                  : "/spring-2025-portfolio-katmaxvol/"
 
 # Theme and Style
 theme: jekyll-theme-minimal
