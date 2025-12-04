@@ -2,7 +2,7 @@
 layout: project
 title: Torque Wrench Design 
 description: MATLAB, CAD, & ANSYS Project
-technologies: [Autodesk Fusion] [ANSYS] [MATLAB]
+technologies: [Autodesk Fusion]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
