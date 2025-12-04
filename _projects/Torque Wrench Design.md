@@ -23,13 +23,13 @@ My contribution to the project was the CAD model, FEM analysis, parts of the han
 
 Using beam theory, our hand calculations state the following about our design:
 
-Deflection at the load point is 0.21094 inches.
-Max Stress is 11.25 ksi.
-Strength Factor of Safety is 6.4267 (>4, satisfying Xo requirement).
-Fracture Factor of Safety is 5.418. (>4, satisfying XK requirement).
-Fatigue Factor of Safety is 2.3111.(>4, satisfying XS requirement).
-Strain Gauge value is 1125 microstrain.
-Voltage Output to input is 1.125mV/V (satisfying strain gauge output requirement).
+- Deflection at the load point is 0.21094 inches.
+- Max Stress is 11.25 ksi.
+- Strength Factor of Safety is 6.4267 (>4, satisfying Xo requirement).
+- Fracture Factor of Safety is 5.418. (>4, satisfying XK requirement).
+- Fatigue Factor of Safety is 2.3111.(>4, satisfying XS requirement).
+- Strain Gauge value is 1125 microstrain.
+- Voltage Output to input is 1.125mV/V (satisfying strain gauge output requirement).
 
 Then, I created the CAD model using Autodesk Fusion, parametrized using the dimensions calculated previosuly. these dimensions are shown in the below images:
 
@@ -56,34 +56,14 @@ Then, I created the CAD model using Autodesk Fusion, parametrized using the dime
   </figure>
 </div>
 
-<!-- <img 
-  src="{{ site.baseurl }}assets/images/TW CAD Top View.png" 
-  alt="Top View"
-  width="500">
-  
-<img 
-  src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" 
-  alt="Top-Front View"
-  width="500">
-
-  <img 
-  src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" 
-  alt="Drive Zoom"
-  width="500">
-
-  <img 
-  src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" 
-  alt="Front Zoom"
-  width="500"> -->
-
 After finishing the CAD model, I imported the geometry as a STEP file into ANSYS, performing a static-structural analysis by clamping the drive with a zero-displacement condition and applying a 40-lb force to the end of the wrench as indicated in the below diagram:
 
-Material: 7075 Al T6
-Young’s Modulus: 10000000 psi
-Poisson ratio: 0.325
-Yield Stress: 72300 psi
-KIC: 24200 psi
-Fatigue Stress at 1e6 cycles: 26000 psi
+- Material: 7075 Al T6
+- Young’s Modulus: 10000000 psi
+- Poisson ratio: 0.325
+- Yield Stress: 72300 psi
+- KIC: 24200 psi
+- Fatigue Stress at 1e6 cycles: 26000 psi
 
 After assigning the material 7075 Al T6 to the geometry and checking to see that the material properties were consistent with what we used in our MATLAB code, I solved the model for max normal and primary stresses, deflection, and elastic strains. 
 
