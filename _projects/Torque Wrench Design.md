@@ -35,22 +35,22 @@ Then, I created the CAD model using Autodesk Fusion, parametrized using the dime
 <img 
   src="{{ site.baseurl }}assets/images/TW CAD Top View.png" 
   alt="Top View"
-  width="400">
+  width="500">
   
 <img 
   src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" 
   alt="Top-Front View"
-  width="400">
+  width="500">
 
   <img 
   src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" 
   alt="Drive Zoom"
-  width="400">
+  width="500">
 
   <img 
   src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" 
   alt="Front Zoom"
-  width="400">
+  width="500">
 
 After finishing the CAD model, I imported the geometry as a STEP file into ANSYS, performing a static-structural analysis by clamping the drive with a zero-displacement condition and applying a 40-lb force to the end of the wrench as indicated in the below diagram:
 
