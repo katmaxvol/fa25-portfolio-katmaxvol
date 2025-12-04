@@ -2,11 +2,13 @@
 layout: project
 title: Torque Wrench Design 
 description: MATLAB, CAD, & ANSYS Project
-technologies: [Autodesk Fusion]
+technologies: [Autodesk Fusion, ANSYS, MATLAB]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
-For my Mechanics of Materials class, MAE 3270, I was tasked with designing a 3/8" drive torque wrench rated for a torque of 600 lb-f to meet the following specifications:
+
+
+For my Mechanics of Materials class, MAE 3270, I was tasked with designing a 3/8" drive torque wrench rated for a torque of 600 lb f to meet the following specifications:
 
 - The wrench must sustain a fully reversed torque of T = ±600 in-lbf for 10^6 cycles. 
 - The strain guages, attatched 1 inch down the bar from the drive, must attain at least 1.0 mV/V output at the rated torque.
