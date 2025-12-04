@@ -200,4 +200,24 @@ footer {
   transform: translateX(-4px);
 }
 
+.project-page-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.project-page-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease;
+}
+
+.project-page-gallery img:hover {
+  transform: scale(1.03);
+}
+
 
