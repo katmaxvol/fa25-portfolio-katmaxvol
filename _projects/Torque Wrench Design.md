@@ -58,7 +58,7 @@ Then, I created the CAD model using Autodesk Fusion, parametrized using the dime
 
 After finishing the CAD model, I imported the geometry as a STEP file into ANSYS, performing a static-structural analysis by clamping the drive with a zero-displacement condition and applying a 40-lb force to the end of the wrench as indicated in the below diagram:
 
- <img src="{{ site.baseurl }}assets/images/TW ansys load diagram.png" alt="Loading diagram on ANSYS">
+ <img src="{{ site.baseurl }}assets/images/TW ansys load diagram.png" alt="Loading diagram on ANSYS" width = 500px>
 
 - Material: 7075 Al T6
 - Young’s Modulus: 10000000 psi
@@ -96,7 +96,7 @@ Included below are images of the normal strain contours, max principal stress co
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW max p stresses fron.png" alt="Max principal stresses front view">
+    <img src="{{ site.baseurl }}assets/images/TW max p stresses front.png" alt="Max principal stresses front view">
     <figcaption>Front view of maximum principal stress contours</figcaption>
   </figure>
 
@@ -106,7 +106,7 @@ Included below are images of the normal strain contours, max principal stress co
   </figure>
 </div>
 
- <img src="{{ site.baseurl }}assets/images/TW deflection 1.png" alt="Deflection">
+ <img src="{{ site.baseurl }}assets/images/TW deflection 1.png" alt="Deflection" width = 500px>
 
 To summarize the results of our analysis, we found that:
 - The max deflection at the end is 0.31424 in, representing a 32.7 % difference to our hand calculations
