@@ -200,24 +200,30 @@ footer {
   transform: translateX(-4px);
 }
 
-.project-page-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-  margin: 25px 0;
+.project-page-figures {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 30px 0;
 }
 
-.project-page-gallery img {
-  width: 500px;
-  height: auto;
+.project-page-figures figure {
+  margin: 0;
+  text-align: center;
+}
+
+.project-page-figures img {
+  width: 100%;
+  max-width: 600px; /* keeps images from getting huge */
+  margin: 0 auto;
+  display: block;
   border-radius: 8px;
-  object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
   transition: transform 0.25s ease;
 }
 
-.project-page-gallery img:hover {
-  transform: scale(1.03);
+.project-page-figures img:hover {
+  transform: scale(1.02);
 }
-
 
