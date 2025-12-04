@@ -1,25 +1,75 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+title: Torque Wrench Design 
+description: MATLAB, CAD, & ANSYS Project
+technologies: [Autodesk Fusion] [ANSYS] [MATLAB]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+For my Mechanics of Materials class, MAE 3270, I was tasked with designing a 3/8" drive torque wrench rated for a torque of 600 lb-f to meet the following specifications:
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+- The wrench must sustain a fully reversed torque of T = ±600 in-lbf for 10^6 cycles. 
+- The strain guages, attatched 1 inch down the bar from the drive, must attain at least 1.0 mV/V output at the rated torque.
+- There must be a safety factor of Xo = 4 for yield or brittle failure.
+- There must be a safety factor of XK = 2 for crack growth from an assumed crack of depth 0.04 inches (1 mm).
+- There must be a fatigue stress safety factor of XS = 1.5.
+- The material must be a steel, aluminum or titanium alloy.
+
+With the help of my partner, Erik Salamanca, ....
+
+My contribution to the project was the CAD model, FEM analysis, parts of the hand calculations and the report writeup linked here (insert link here). We jointly wrote the MATLAB code, iterated on the dimensions of the bar of the torque wrench, and researched materials through ANSYS Granta EduPack, settling on 7075 Al T6 for its strength and ductility. We calculated that with a drive-end length L = 15", height b = 0.5", and width h = 0.8", a design made out of this material would satisfy all of the above requirements.
+
+Using beam theory, our hand calculations state the following about our design:
+
+Deflection at the load point is 0.21094 inches.
+Max Stress is 11.25 ksi.
+Strength Factor of Safety is 6.4267 (>4, satisfying Xo requirement).
+Fracture Factor of Safety is 5.418. (>4, satisfying XK requirement).
+Fatigue Factor of Safety is 2.3111.(>4, satisfying XS requirement).
+Strain Gauge value is 1125 microstrain.
+Voltage Output to input is 1.125mV/V (satisfying strain gauge output requirement).
+
+Then, I created the CAD model using Autodesk Fusion, parametrized using the dimensions calculated previosuly. these dimensions are shown in the below images:
+
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+
+After finishing the CAD model, I imported the geometry as a STEP file into ANSYS, performing a static-structural analysis by clamping the drive with a zero-displacement condition and applying a 40-lb force to the end of the wrench as indicated in the below diagram:
 
 ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Material: 7075 Al T6
+Young’s Modulus: 10000000 psi
+Poisson ratio: 0.325
+Yield Stress: 72300 psi
+KIC: 24200 psi
+Fatigue Stress at 1e6 cycles: 26000 psi
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+After assigning the material 7075 Al T6 to the geometry and checking to see that the material properties were consistent with what we used in our MATLAB code, I solved the model for max normal and primary stresses, deflection, and elastic strains. 
 
-I was inspired by this old radio when I made this rendering:
+Included below are images of the normal strain contours, max principal stress contours, and deflection:
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
+To summarize the results of our analysis, we found that:
+- The max deflection at the end is 0.31424 in, representing a 32.7 % difference to our hand calculations
+- The strain gauges located on either side of the drive on both sides of the wrench would measure strains of 1041.5 and -1040.6 microstrain, which give percent differences of 7.71% and 7.78% respectively
+  ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+- The max normal stress was affected by the mesh sizing around the filleted area, which represented a stress concentration that wasn't reflected in our hand calculations (since we didn't take the drive into account). With a mesh sizing of 0.06" at the drive and fillet, the max normal stress (not including the erroneous one caused by boundary condition misalignment above the fillet) was 22286 psi, corresponding to a factor of safety Xo = 3.54: too low! By iterating through several mesh sizing solutions, I found that sizing the fillet mesh at 0.1" did not significantly affect the geometry and gave a measurement of 17900 psi at the same location, corresponding to Xo = 4.03.
+   ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+- An interesting thing to note here is that the stress used here is the stress in the z direction. In reality, it would be better to use the equivalent stress (von Mises) to calculate the factor of safety.
+- Using strains measured at the strain gauge location from the FEM, 1041.5 and -1040.6 microstrain, we predict that the torque wrench sensitivity in mV/V would be about 1.04 mV/V.
+  ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Taking all of this into account, as well as the physical size of the object, my partner and I decided that the SGT-1LH/350-TY13 half bridge uniaxial strain gauge would be a good choice of product to choose to test our torque wrench.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+
+
+
+
+
+
