@@ -58,6 +58,8 @@ Then, I created the CAD model using Autodesk Fusion, parametrized using the dime
 
 After finishing the CAD model, I imported the geometry as a STEP file into ANSYS, performing a static-structural analysis by clamping the drive with a zero-displacement condition and applying a 40-lb force to the end of the wrench as indicated in the below diagram:
 
+ <img src="{{ site.baseurl }}assets/images/TW ansys load diagram.png" alt="Loading diagram on ANSYS">
+
 - Material: 7075 Al T6
 - Young’s Modulus: 10000000 psi
 - Poisson ratio: 0.325
@@ -65,10 +67,46 @@ After finishing the CAD model, I imported the geometry as a STEP file into ANSYS
 - KIC: 24200 psi
 - Fatigue Stress at 1e6 cycles: 26000 psi
 
-After assigning the material 7075 Al T6 to the geometry and checking to see that the material properties were consistent with what we used in our MATLAB code, I solved the model for max normal and primary stresses, deflection, and elastic strains. 
+After assigning the material 7075 Al T6 to the geometry and checking to see that the above material properties were consistent with what we used in our MATLAB code, I solved the model for max normal and principal stresses, deflection, and elastic strains. 
 
 Included below are images of the normal strain contours, max principal stress contours, and deflection:
 
+<div class="project-page-figures">
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW normal strain contours 1.png" alt="Normal Strain Contours">
+    <figcaption>Normal strain contours</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW normal strain contours 2.png" alt="Normal Strain Contours">
+    <figcaption>Normal strain contours</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW normal strain contours zoom.png" alt="Normal Strain Contours">
+    <figcaption>Zoom of normal strain contours</figcaption>
+  </figure>
+</div>
+
+<div class="project-page-figures">
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW max p stresses top.png" alt="Max principal stresses top view">
+    <figcaption>Top view of maximum principal stress contours</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW max p stresses fron.png" alt="Max principal stresses front view">
+    <figcaption>Front view of maximum principal stress contours</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW max p stresses drive zoom.png" alt="Max principal stresses zoomed in">
+    <figcaption>Zoomed-in view of maximum principal stress contours</figcaption>
+  </figure>
+</div>
+
+ <img src="{{ site.baseurl }}assets/images/TW deflection 1.png" alt="Deflection">
 
 To summarize the results of our analysis, we found that:
 - The max deflection at the end is 0.31424 in, representing a 32.7 % difference to our hand calculations
