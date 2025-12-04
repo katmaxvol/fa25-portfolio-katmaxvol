@@ -112,14 +112,17 @@ To summarize the results of our analysis, we found that:
 - The max deflection at the end is 0.31424 in, representing a 32.7 % difference to our hand calculations
 - The strain gauges located on either side of the drive on both sides of the wrench would measure strains of 1041.5 and -1040.6 microstrain, which give percent differences of 7.71% and 7.78% respectively
 - The max normal stress was affected by the mesh sizing around the filleted area, which represented a stress concentration that wasn't reflected in our hand calculations (since we didn't take the drive into account). With a mesh sizing of 0.06" at the drive and fillet, the max normal stress (not including the erroneous one caused by boundary condition misalignment above the fillet) was 22286 psi, corresponding to a factor of safety Xo = 3.54: too low! By iterating through several mesh sizing solutions, I found that sizing the fillet mesh at 0.1" did not significantly affect the geometry and gave a measurement of 17900 psi at the same location, corresponding to Xo = 4.03.
-<img src="{{ site.baseurl }}assets/images/TW n stress premesh.png" width="200" style="display:inline-block; margin-right:10px;">
-<img src="{{ site.baseurl }}assets/images/TW n stress postmesh.png" width="200" style="display:inline-block">
-
+<div>
+<img src="{{ site.baseurl }}assets/images/TW n stress premesh.png" width="220" style="display:inline-block; margin-right:10px;">
+<img src="{{ site.baseurl }}assets/images/TW n stress postmesh.png" width="220" style="display:inline-block">
+</div>
 
 - An interesting thing to note here is that the stress used here is the stress in the z direction. In reality, it would be better to use the equivalent stress (von Mises) to calculate the factor of safety.
 - Using strains measured at the strain gauge location from the FEM, 1041.5 and -1040.6 microstrain, we predict that the torque wrench sensitivity in mV/V would be about 1.04 mV/V.
-<img src="{{ site.baseurl }}assets/images/TW sg front.png" width="200" style="display:inline-block; margin-right:10px;">
-<img src="{{ site.baseurl }}assets/images/TW sg back.png" width="200" style="display:inline-block">
+<div>
+<img src="{{ site.baseurl }}assets/images/TW sg front.png" width="220" style="display:inline-block; margin-right:10px;">
+<img src="{{ site.baseurl }}assets/images/TW sg back.png" width="220" style="display:inline-block">
+</div>
 
 Taking all of this into account, as well as the physical size of the object, my partner and I decided that the SGT-1LH/350-TY13 half bridge uniaxial strain gauge would be a good choice of product to choose to test our torque wrench.
 
