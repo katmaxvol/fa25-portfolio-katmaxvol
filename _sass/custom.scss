@@ -227,3 +227,10 @@ footer {
   transform: scale(1.02);
 }
 
+.project-page-figures figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: $text-color;
+  opacity: 0.85;
+  font-style: italic;
+}
