@@ -33,11 +33,27 @@ Voltage Output to input is 1.125mV/V (satisfying strain gauge output requirement
 
 Then, I created the CAD model using Autodesk Fusion, parametrized using the dimensions calculated previosuly. these dimensions are shown in the below images:
 
-<div class="project-page-gallery">
-  <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png" alt="Top View">
-  <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" alt="Top-Front View">
-  <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" alt="Drive Zoom">
-  <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" alt="Front Zoom">
+<div class="project-page-figures">
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" alt="Top-Front View">
+    <figcaption>Top-Front View of model, showing major dimensions</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png" alt="Top View">
+    <figcaption>Top View of model, showing major dimensions</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" alt="Drive Zoom">
+    <figcaption>Zoom-in of the drive of the torque wrench</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" alt="Front Zoom">
+    <figcaption>Zoom-in of the front of the torque wrench, with indicated area for strain gauge to be applied</figcaption>
+  </figure>
 </div>
 
 <!-- <img 
