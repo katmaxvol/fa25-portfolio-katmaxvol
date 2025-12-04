@@ -32,7 +32,10 @@ Strain Gauge value is 1125 microstrain.
 Voltage Output to input is 1.125mV/V (satisfying strain gauge output requirement).
 
 Then, I created the CAD model using Autodesk Fusion, parametrized using the dimensions calculated previosuly. these dimensions are shown in the below images:
-
+![Top View]({{ site.baseurl }}assets/images/TW CAD Top View.png)
+![Top-Front View]({{ site.baseurl }}assets/images/TW CAD Top-Front View.png)
+![Drive Zoom]({{ site.baseurl }}assets/images/TW CAD Drive Zoom.png)
+![Front Zoom]({{ site.baseurl }}assets/images/TW CAD Front Zoom.png)
 
 After finishing the CAD model, I imported the geometry as a STEP file into ANSYS, performing a static-structural analysis by clamping the drive with a zero-displacement condition and applying a 40-lb force to the end of the wrench as indicated in the below diagram:
 
