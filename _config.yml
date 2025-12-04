@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Kat Volkova
 description              : Kat Volkova - Projects and CV 
-baseurl                  : "/spring-2025-portfolio-katmaxvol/"
+baseurl                  : "/fa2025-portfolio-katmaxvol/"
 
 # Theme and Style
 theme: jekyll-theme-minimal
