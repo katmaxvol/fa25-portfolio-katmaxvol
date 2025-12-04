@@ -17,9 +17,7 @@ For my Mechanics of Materials class, MAE 3270, I was tasked with designing a 3/8
 - There must be a fatigue stress safety factor of XS = 1.5.
 - The material must be a steel, aluminum or titanium alloy.
 
-With the help of my partner, Erik Salamanca, ....
-
-My contribution to the project was the CAD model, FEM analysis, parts of the hand calculations and the report writeup linked here (insert link here). We jointly wrote the MATLAB code, iterated on the dimensions of the bar of the torque wrench, and researched materials through ANSYS Granta EduPack, settling on 7075 Al T6 for its strength and ductility. We calculated that with a drive-end length L = 15", height b = 0.5", and width h = 0.8", a design made out of this material would satisfy all of the above requirements.
+With the help of my partner, Erik Salamanca, I designed a torque wrencht that fit these functionality requirements. My specific contribution to the project was the CAD model, FEM analysis, parts of the hand calculations and the report writeup linked here (insert link here). We jointly wrote the MATLAB code, iterated on the dimensions of the bar of the torque wrench, and researched materials through ANSYS Granta EduPack, settling on 7075 Al T6 for its strength and ductility. We calculated that with a drive-end length L = 15", height b = 0.5", and width h = 0.8", a design made out of this material would satisfy all of the above requirements.
 
 Using beam theory, our hand calculations state the following about our design:
 
@@ -106,11 +104,11 @@ Included below are images of the normal strain contours, max principal stress co
   </figure>
 </div>
 
- <img src="{{ site.baseurl }}assets/images/TW deflection 1.png" alt="Deflection" width = 500px>
+ <img src="{{ site.baseurl }}assets/images/TW deflection 1.png" alt="Deflection" width = 550px>
 
 To summarize the results of our analysis, we found that:
 - The max deflection at the end is 0.31424 in, representing a 32.7 % difference to our hand calculations
-- The strain gauges located on either side of the drive on both sides of the wrench would measure strains of 1041.5 and -1040.6 microstrain, which give percent differences of 7.71% and 7.78% respectively
+- The strain gauges located on either side of the drive on both sides of the wrench would measure strains of 1041.5 and -1040.6 microstrain, which give percent differences of 7.71% and 7.78% respectively.
 - The max normal stress was affected by the mesh sizing around the filleted area, which represented a stress concentration that wasn't reflected in our hand calculations (since we didn't take the drive into account). With a mesh sizing of 0.06" at the drive and fillet, the max normal stress (not including the erroneous one caused by boundary condition misalignment above the fillet) was 22286 psi, corresponding to a factor of safety Xo = 3.54: too low! By iterating through several mesh sizing solutions, I found that sizing the fillet mesh at 0.1" did not significantly affect the geometry and gave a measurement of 17900 psi at the same location, corresponding to Xo = 4.03.
 <div>
 <img src="{{ site.baseurl }}assets/images/TW n stress premesh.png" width="280" style="display:inline-block; margin-right:10px;">
@@ -124,9 +122,7 @@ To summarize the results of our analysis, we found that:
 <img src="{{ site.baseurl }}assets/images/TW sg back.png" width="280" style="display:inline-block">
 </div>
 
-Taking all of this into account, as well as the physical size of the object, my partner and I decided that the SGT-1LH/350-TY13 half bridge uniaxial strain gauge would be a good choice of product to choose to test our torque wrench.
-
-
+Taking all of this into account, as well as the physical size of the object, my partner and I decided that the SGT-1LH/350-TY13 half bridge uniaxial strain gauge would be a good choice of product to choose to test our torque wrench. Linked [here]([https://www.example.com](https://br.omega.com/omegaFiles/pressure/pdf/SGT_HALF-BRIDGE-UNIAXIAL.pdf)) is the spec sheet for this series of strain gauge models. 
 
 
 
