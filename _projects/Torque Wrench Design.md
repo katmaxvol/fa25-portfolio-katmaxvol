@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench Design 
 description: MATLAB, CAD, & ANSYS Project
 technologies: [Autodesk Fusion, ANSYS, MATLAB]
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/TW n stress postmesh.png
 ---
 
 
@@ -122,7 +122,7 @@ To summarize the results of our analysis, we found that:
 <img src="{{ site.baseurl }}assets/images/TW sg back.png" width="280" style="display:inline-block">
 </div>
 
-Taking all of this into account, as well as the physical size of the object, my partner and I decided that the SGT-1LH/350-TY13 half bridge uniaxial strain gauge would be a good choice of product to choose to test our torque wrench. Linked [here]([https://www.example.com](https://br.omega.com/omegaFiles/pressure/pdf/SGT_HALF-BRIDGE-UNIAXIAL.pdf)) is the spec sheet for this series of strain gauge models. 
+Taking all of this into account, as well as the physical size of the object, my partner and I decided that the SGT-1LH/350-TY13 half bridge uniaxial strain gauge would be a good choice of product to choose to test our torque wrench. Linked <a href="https://br.omega.com/omegaFiles/pressure/pdf/SGT_HALF-BRIDGE-UNIAXIAL.pdf" target="_blank">here</a> is the spec sheet for this series of strain gauge models. 
 
 
 
