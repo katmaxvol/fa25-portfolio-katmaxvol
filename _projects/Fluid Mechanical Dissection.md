@@ -6,20 +6,15 @@ technologies: [MATLAB, python]
 image: /assets/images/function-graph.png
 ---
 
+For the final project of my Fluid Mechanics class, MAE 3230, my group and I took apart a leafblower to see how it works. Over the span of several lab sessions we unscrewed tons of screws, pried apart plenty of press-fit parts, and used lots of elbow grease. To document our findings, we filmed a video showcasing our dissection sprocess as well as some of the mathematical underpinnings behind the different components that we observed. 
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+My specific contributions to the video were a good deal of the scripting of the first half, the deep dive into the shape of the volute mathematical sidebar, and the carburetor/venturi analysis mathematical sidebar. Outside of those specific items, I helped with the mathematical reasoning behind the centirfugal pump specific speed and pressure drop relation (i.e. describing why this design works better in a centrifugal vs. axial configuration), and general other nuts and bolts throguhout the video. All 4 of use participated actively in the dissection itself, so there isn't a good way to give credit for the manual efforts required to take the leafblower apart. 
 
-
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-
-This is how I solved the problem:
-
-```python
-    some code = 10;
-    plot();
-```
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
