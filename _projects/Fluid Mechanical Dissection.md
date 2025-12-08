@@ -2,8 +2,8 @@
 layout: project
 title: Fluid Mechanical Dissection
 description: I dissected a leafblower!
-technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+technologies: [Fluid Mechanics, Elbow Grease]
+image: /assets/images/FMD Thumbnail.png
 ---
 
 For the final project of my Fluid Mechanics class, MAE 3230, my group and I took apart a leafblower to see how it works. Over the span of several lab sessions we unscrewed tons of screws, pried apart plenty of press-fit parts, and used lots of elbow grease. To document our findings, we filmed a video showcasing our dissection sprocess as well as some of the mathematical underpinnings behind the different components that we observed. 
