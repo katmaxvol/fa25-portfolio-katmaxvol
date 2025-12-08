@@ -12,7 +12,7 @@ My specific contributions to the video were a good deal of the scripting of the 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe 
-    src="https://www.youtube.com/embed/dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
     frameborder="0"
     allowfullscreen
     style="position: absolute; top:0; left: 0; width: 100%; height: 100%;">
