@@ -126,11 +126,9 @@ Taking all of this into account, as well as the physical size of the object, my 
 
 Linked here is our report:
 
-<embed 
-  src="/assets/pdfs/CV.pdf" 
-  type="application/pdf" 
-  width="100%" 
-  height="600px"
-/>
-
+<iframe 
+  src="/assets/MAE 3270 Final HW.pdf"
+  width="100%"
+  height="600px">
+</iframe>
 
