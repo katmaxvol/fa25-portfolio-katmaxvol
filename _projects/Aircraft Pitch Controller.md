@@ -3,7 +3,7 @@ layout: project
 title: Aircraft Pitch Controller
 description: MAE 3260
 technologies: [MATLAB, Simulink]
-image: /assets/images/spaceship-design.jpg
+image: /assets/images/aircraft_pitch_control_thumbnail.png
 ---
 
 
@@ -16,7 +16,7 @@ As the final groupwork of my System Dynamics class, MAE 3260, my group (consisti
 Our report is linked here:
 
 <embed 
-  src="/assets/pdfs/CV.pdf" 
+  src="/assets/MAE 3260 final groupwork report.pdf" 
   type="application/pdf" 
   width="100%" 
   height="600px"
