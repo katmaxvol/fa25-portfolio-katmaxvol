@@ -15,10 +15,5 @@ As the final groupwork of my System Dynamics class, MAE 3260, my group (consisti
 
 Our report is linked here:
 
-<embed 
-  src="/assets/MAE 3260 final groupwork report.pdf" 
-  type="application/pdf" 
-  width="100%" 
-  height="600px"
-/>
+<iframe src="{{ site.baseurl }}/assets/MAE3260 final groupwork report.pdf" width="100%" height="800px"></iframe>
 
