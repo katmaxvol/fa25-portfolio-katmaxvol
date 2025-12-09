@@ -8,16 +8,16 @@ image: /assets/images/TW n stress postmesh.png
 
 
 
-For my Mechanics of Materials class, MAE 3270, I was tasked with designing a 3/8" drive torque wrench rated for a torque of 600 lb f to meet the following specifications:
+For my Mechanics of Materials class, MAE 3270, I was tasked with designing a 3/8" drive torque wrench rated for a torque of 600 lb-f to meet the following specifications:
 
 - The wrench must sustain a fully reversed torque of T = ±600 in-lbf for 10^6 cycles. 
-- The strain guages, attatched 1 inch down the bar from the drive, must attain at least 1.0 mV/V output at the rated torque.
+- The strain gauges, attatched 1 inch down the bar from the drive, must attain at least 1.0 mV/V output at the rated torque.
 - There must be a safety factor of Xo = 4 for yield or brittle failure.
 - There must be a safety factor of XK = 2 for crack growth from an assumed crack of depth 0.04 inches (1 mm).
 - There must be a fatigue stress safety factor of XS = 1.5.
 - The material must be a steel, aluminum or titanium alloy.
 
-With the help of my partner, Erik Salamanca, I designed a torque wrencht that fit these functionality requirements. My specific contribution to the project was the CAD model, FEM analysis, parts of the hand calculations and the report writeup linked here (insert link here). We jointly wrote the MATLAB code, iterated on the dimensions of the bar of the torque wrench, and researched materials through ANSYS Granta EduPack, settling on 7075 Al T6 for its strength and ductility. We calculated that with a drive-end length L = 15", height b = 0.5", and width h = 0.8", a design made out of this material would satisfy all of the above requirements.
+With the help of my partner, Erik Salamanca, I designed a torque wrench that fit these functionality requirements. My specific contribution to the project was the CAD model, FEM analysis, parts of the hand calculations and the report writeup linked at the bottom of the webpage. We jointly wrote the MATLAB code, iterated on the dimensions of the bar of the torque wrench, and researched materials through ANSYS Granta EduPack, settling on 7075 Al T6 for its strength and ductility. We calculated that with a drive-end length L = 15", height b = 0.5", and width h = 0.8", a design made out of this material would satisfy all of the above requirements.
 
 Using beam theory, our hand calculations state the following about our design:
 
@@ -124,6 +124,7 @@ To summarize the results of our analysis, we found that:
 
 Taking all of this into account, as well as the physical size of the object, my partner and I decided that the SGT-1LH/350-TY13 half bridge uniaxial strain gauge would be a good choice of product to choose to test our torque wrench. Linked <a href="https://br.omega.com/omegaFiles/pressure/pdf/SGT_HALF-BRIDGE-UNIAXIAL.pdf" target="_blank">here</a> is the spec sheet for this series of strain gauge models. 
 
+Linked here is our report:
 
 
 
