@@ -127,8 +127,7 @@ Taking all of this into account, as well as the physical size of the object, my 
 Linked here is our report:
 
 <iframe 
-  src="/assets/MAE_3270_Final_HW.pdf"
-  width="100%"
-  height="600px">
+  src="{{ '/assets/MAE_3270_Final_HW.pdf' | relative_url }}"
+  width="100%" height="600px">
 </iframe>
 
