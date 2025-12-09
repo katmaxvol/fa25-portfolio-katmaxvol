@@ -16,7 +16,7 @@ As the final groupwork of my System Dynamics class, MAE 3260, my group (consisti
 Our report is linked here:
 
 <embed 
-  src="/assets/CV.pdf" 
+  src="/assets/pdfs/CV.pdf" 
   type="application/pdf" 
   width="100%" 
   height="600px"
