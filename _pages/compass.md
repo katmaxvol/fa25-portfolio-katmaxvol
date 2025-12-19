@@ -4,16 +4,11 @@ title: Kat Volkova - About Me
 permalink: /compass/
 ---
 
-<div class="gallery-container">
-<div class="project-gallery">
-    {% for project in site.projects %}
-      <div class="gallery-item">
-        <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" />
-          <p>{{ project.title}}</p>
-        </a>
-      </div>
-    {% endfor %}
+<div class="project-grid">
+  {% assign pages = site.compass | sort: "order" %}
+  {% for page in pages %}
+    <a class="project-card" href="{{ page.url | relative_url }}">
+      <h2>{{ page.title }}</h2>
+    </a>
+  {% endfor %}
 </div>
-</div>
-

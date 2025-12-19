@@ -12,7 +12,7 @@ title                    : Kat Volkova
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Kat Volkova
-description              : Kat Volkova - Projects and CV 
+description              : Kat Volkova - Projects and CV
 baseurl                  : "/fa25-portfolio-katmaxvol/"
 
 # Theme and Style
@@ -31,6 +31,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  compass:
+    output: true
+    permalink: /compass/:name/
 
 # Markdown
 markdown: kramdown
@@ -42,4 +45,3 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
-
