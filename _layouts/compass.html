@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign pages = site.compass | sort: "order" %}
+{% for p in pages %}
+  {% if p.url == page.url %}
+    {% assign index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+<nav class="compass-nav">
+  {% if pages[index-1] %}
+    <a class="prev" href="{{ pages[index-1].url | relative_url }}">
+      ← {{ pages[index-1].title }}
+    </a>
+  {% endif %}
+
+  {% if pages[index+1] %}
+    <a class="next" href="{{ pages[index+1].url | relative_url }}">
+      {{ pages[index+1].title }} →
+    </a>
+  {% endif %}
+</nav>

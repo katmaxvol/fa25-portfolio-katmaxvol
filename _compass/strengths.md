@@ -1,5 +1,5 @@
 ---
 title: Strengths
-layout: page
+layout: compass
 order: 3
 ---

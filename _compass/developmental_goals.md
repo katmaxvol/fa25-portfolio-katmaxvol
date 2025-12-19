@@ -1,5 +1,5 @@
 ---
 title: Developmental Goals
-layout: page
+layout: compass
 order: 5
 ---

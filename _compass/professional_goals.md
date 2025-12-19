@@ -1,5 +1,5 @@
 ---
 title: Professional Goals
-layout: page
+layout: compass
 order: 4
 ---

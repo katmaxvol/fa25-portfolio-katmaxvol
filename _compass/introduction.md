@@ -1,5 +1,5 @@
 ---
 title: Introduction
-layout: page
+layout: compass
 order: 1
 ---

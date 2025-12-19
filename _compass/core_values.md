@@ -1,5 +1,5 @@
 ---
 title: Core Values
-layout: page
+layout: compass
 order: 2
 ---

@@ -1,5 +1,5 @@
 ---
 title: And More
-layout: page
+layout: compass
 order: 7
 ---

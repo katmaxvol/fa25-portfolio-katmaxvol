@@ -1,5 +1,5 @@
 ---
 title: Leadership and Teamwork
-layout: page
+layout: compass
 order: 6
 ---
