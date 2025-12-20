@@ -11,9 +11,9 @@ layout: default
   {% endif %}
 {% endfor %}
 
-<p>DEBUG: {{ page.title }}</p>
-<p>DEBUG URL: {{ page.url }}</p>
-<p>DEBUG pages count: {{ site.compass | size }}</p>
+{% if page.image %}
+  <img class="compass-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+{% endif %}
 
 <nav class="compass-nav">
   {% if pages[index-1] %}
