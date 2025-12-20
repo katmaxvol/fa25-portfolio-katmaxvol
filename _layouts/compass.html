@@ -12,8 +12,14 @@ layout: default
 {% endfor %}
 
 {% if page.image %}
-  <img class="compass-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  <img
+    class="compass-hero"
+    src="{{ page.image | relative_url }}"
+    alt="{{ page.title }}"
+  >
 {% endif %}
+
+{{ content }}
 
 <nav class="compass-nav">
   {% if pages[index-1] %}
