@@ -151,8 +151,9 @@ footer {
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 250px; 
-  max-height: 300px; 
+  height: auto;
+  max-height: none;
+  padding-bottom: 0.5rem;
 }
 
 .gallery-item img {
@@ -177,7 +178,7 @@ footer {
 }
 
 .gallery-item:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .project-image {
@@ -188,7 +189,7 @@ footer {
 .back-arrow {
   display: inline-block;
   font-size: 1.1em;
-  color: #686d85; 
+  color: #686d85;
   text-decoration: none;
   margin-bottom: 1em;
   font-weight: bold;
@@ -196,7 +197,7 @@ footer {
 }
 
 .back-arrow:hover {
-  color: #3a3f58; 
+  color: #3a3f58;
   transform: translateX(-4px);
 }
 
