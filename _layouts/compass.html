@@ -11,6 +11,10 @@ layout: page
   {% endif %}
 {% endfor %}
 
+<p>DEBUG: {{ page.title }}</p>
+<p>DEBUG URL: {{ page.url }}</p>
+<p>DEBUG pages count: {{ site.compass | size }}</p>
+
 <nav class="compass-nav">
   {% if pages[index-1] %}
     <a class="prev" href="{{ pages[index-1].url | relative_url }}">
