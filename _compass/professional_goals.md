@@ -2,6 +2,7 @@
 title: Professional Goals
 layout: compass
 order: 4
+image: /assets/images/aircraft_pitch_control_thumbnail.png
 ---
 In the next three to five years, my primary professional goal is to work as a mechanical engineer in industry after graduation in order to build a strong technical and practical foundation to base the rest of my career upon. Since this would be very early on in my career, I especially value breadth of experiences and would find it exhilarating to be thrown into the deep end of design constraints, multidisciplinary communication, and all-new fields.
 

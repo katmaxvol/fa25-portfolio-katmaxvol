@@ -2,6 +2,7 @@
 title: Core Values
 layout: compass
 order: 2
+image: /assets/images/aircraft_pitch_control_thumbnail.png
 ---
 
 My core values of Achievement, Community, and Curiosity guide how I make decisions, set my goals, and define how I approach challenges in both academic and professional settings.
@@ -12,4 +13,4 @@ Community, as one of my core values, constantly reminds me that my success is ra
 
 Curiosity drives my desire to understand how and why things work, and it is what drove me to mechanical engineering in the first place. Because of this value, I am constantly asking questions and approaching education as a lifelong endeavor. Connecting ideas across disciplines allows me to provide different perspectives to any conversation I’m in.
 
-As informed by all of these core values, my ideal career would involve strong relationships with my colleagues and a culture of shared innovation, where I face new and exciting challenges every day. 
+As informed by all of these core values, my ideal career would involve strong relationships with my colleagues and a culture of shared innovation, where I face new and exciting challenges every day.

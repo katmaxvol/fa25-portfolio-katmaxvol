@@ -2,6 +2,7 @@
 title: Developmental Goals
 layout: compass
 order: 5
+image: /assets/images/aircraft_pitch_control_thumbnail.png
 ---
 An effective professional engineer is fundamentally a service provider: someone who translates complex technical ideas into decisions that serve stakeholders, clients, their team, and society. While technical competence is essential, and I am building these skills through summer internships and classes, engineering solutions rarely succeed on technical merit alone. As an undergraduate, I aim to intentionally develop non-technical skills that can help make me the best possible professional in my future chosen industry.
 
