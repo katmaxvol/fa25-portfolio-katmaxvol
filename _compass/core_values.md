@@ -17,18 +17,18 @@ As informed by all of these core values, my ideal career would involve strong re
 
 <div class="project-page-figures">
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png"
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png"
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png"
+    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png"
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png">
   </figure>
 </div>

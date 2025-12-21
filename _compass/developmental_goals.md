@@ -7,21 +7,20 @@ image: /assets/images/aircraft_pitch_control_thumbnail.png
 An effective professional engineer is fundamentally a service provider: someone who translates complex technical ideas into decisions that serve stakeholders, clients, their team, and society. While technical competence is essential, and I am building these skills through summer internships and classes, engineering solutions rarely succeed on technical merit alone. As an undergraduate, I aim to intentionally develop non-technical skills that can help make me the best possible professional in my future chosen industry.
 
 <div class="project-page-figures">
-
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png"
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png"
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png"
+    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" 
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png"> 
   </figure>
 </div>
 
