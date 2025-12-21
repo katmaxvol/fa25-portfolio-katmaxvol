@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{{ content }}
-
 {% assign pages = site.compass | sort: "order" %}
 {% for p in pages %}
   {% if p.url == page.url %}

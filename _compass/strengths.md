@@ -10,6 +10,8 @@ I consider my adaptability to be one of my top strengths because of comes into p
 
 While my positivity comes into play in many areas of my life, I find that this strength mostly manifests in my teamwork and leadership skills. I am  able to come up with solutions to problems because of my future-forward mindset, and am always working optimistically to reach my goals. This makes me a good addition to any team I'm in, and allows me to focus on solutions without getting bogged down by temporary inconvenience.
 
+Communication is essential for teamwork in both school settings and the wider world, and I work hard to be a good communicator that can express my thoughts clearly and efficiently. This strength has helped me in many places, including leadership on my project team, explaining hard engineering concepts to students in the classes that I’m TAing, and presenting my product design to my whole class. I am constantly working on my communication and flexing my presentation muscles through all of the activities, classes, and jobs that I am involved in.
+
 <div class="project-page-figures">
 
   <figure>
@@ -32,5 +34,3 @@ While my positivity comes into play in many areas of my life, I find that this s
     <figcaption>Zoom-in of the front of the torque wrench, with indicated area for strain gauge to be applied</figcaption>
   </figure>
 </div>
-
-Communication is essential for teamwork in both school settings and the wider world, and I work hard to be a good communicator that can express my thoughts clearly and efficiently. This strength has helped me in many places, including leadership on my project team, explaining hard engineering concepts to students in the classes that I’m TAing, and presenting my product design to my whole class. I am constantly working on my communication and flexing my presentation muscles through all of the activities, classes, and jobs that I am involved in.
