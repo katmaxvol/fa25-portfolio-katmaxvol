@@ -245,13 +245,15 @@ footer {
 }
 
 .compass-nav {
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   margin-top: 2rem;
+  color: black !important;
+  background: none;
 }
 
 .compass-nav a {
+  color: black !important;
   text-decoration: none;
   font-weight: 500;
-  color: #333;
 }
