@@ -18,7 +18,6 @@ layout: default
 
 
 {{ content }}
-<p style="color:red;">DEBUG: NAV SHOULD BE BELOW</p>
 
 <nav class="compass-nav">
   {% if index != nil and pages[index-1] %}
@@ -33,6 +32,3 @@ layout: default
     </a>
   {% endif %}
 </nav>
-
-<p>Prev test: {{ pages[0].title }}</p>
-<p>Next test: {{ pages[1].title }}</p>
