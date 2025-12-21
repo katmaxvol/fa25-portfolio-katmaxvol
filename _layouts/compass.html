@@ -3,8 +3,11 @@ layout: default
 ---
 
 {% assign pages = site.compass | sort: "order" %}
+{% assign current = page.url | remove:'index.html' %}
+
 {% for p in pages %}
-  {% if p.url == page.url %}
+  {% assign p_url = p.url | remove:'index.html' %}
+  {% if p_url == current %}
     {% assign index = forloop.index0 %}
   {% endif %}
 {% endfor %}
