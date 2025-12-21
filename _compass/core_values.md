@@ -14,3 +14,26 @@ Community, as one of my core values, constantly reminds me that my success is ra
 Curiosity drives my desire to understand how and why things work, and it is what drove me to mechanical engineering in the first place. Because of this value, I am constantly asking questions and approaching education as a lifelong endeavor. Connecting ideas across disciplines allows me to provide different perspectives to any conversation I’m in.
 
 As informed by all of these core values, my ideal career would involve strong relationships with my colleagues and a culture of shared innovation, where I face new and exciting challenges every day.
+
+<div class="project-page-figures">
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" alt="Top-Front View">
+    <figcaption>Top-Front View of model, showing major dimensions</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png" alt="Top View">
+    <figcaption>Top View of model, showing major dimensions</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" alt="Drive Zoom">
+    <figcaption>Zoom-in of the drive of the torque wrench</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" alt="Front Zoom">
+    <figcaption>Zoom-in of the front of the torque wrench, with indicated area for strain gauge to be applied</figcaption>
+  </figure>
+</div>

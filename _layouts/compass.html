@@ -11,13 +11,7 @@ layout: default
   {% endif %}
 {% endfor %}
 
-{% if page.image %}
-  <img
-    class="compass-hero"
-    src="{{ page.image | relative_url }}"
-    alt="{{ page.title }}"
-  >
-{% endif %}
+<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
 
 {{ content }}
 

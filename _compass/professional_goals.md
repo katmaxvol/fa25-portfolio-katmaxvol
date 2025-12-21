@@ -8,4 +8,27 @@ In the next three to five years, my primary professional goal is to work as a me
 
 While I have not yet committed to a specific industry, I have found that sustainability has been a common thread in my interests, and I see it as something I must focus my engineering work on in the future. I plan to explore more about how this interest applies to engineering during my semester abroad in Denmark, where I will take classes about green fuels and resource economics to supplement my knowledge from a sustainable engineering class that I took in my freshman year.
 
+<div class="project-page-figures">
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" alt="Top-Front View">
+    <figcaption>Top-Front View of model, showing major dimensions</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png" alt="Top View">
+    <figcaption>Top View of model, showing major dimensions</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" alt="Drive Zoom">
+    <figcaption>Zoom-in of the drive of the torque wrench</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" alt="Front Zoom">
+    <figcaption>Zoom-in of the front of the torque wrench, with indicated area for strain gauge to be applied</figcaption>
+  </figure>
+</div>
+
 I am very drawn to fast-paced, future-forward work environments where learning is continuous and expectations are high. I find that I thrive in settings that require adaptability, collaboration, and initiative, and I want to work in a role where engineers are encouraged to take ownership of their designs and approach their work with sustainability in mind. In the longer term, I hope to grow into positions that allow me to influence design direction and decision-making, with my experience in leadership in my undergraduate years translating to a more management-oriented path in the future.
