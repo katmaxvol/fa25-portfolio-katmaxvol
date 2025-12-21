@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Compass
+title: Kat Volkova - An Introduction
 permalink: /compass/
 ---
 

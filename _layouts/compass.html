@@ -9,6 +9,8 @@ layout: default
   {% endif %}
 {% endfor %}
 
+{{ content }}
+
 <nav class="compass-nav">
   {% if pages[index-1] %}
     <a class="prev" href="{{ pages[index-1].url | relative_url }}">
