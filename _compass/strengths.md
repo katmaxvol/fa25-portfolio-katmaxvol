@@ -14,18 +14,14 @@ Communication is essential for teamwork in both school settings and the wider wo
 
 <div class="project-page-figures">
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png">
+    <img src="{{ site.baseurl }}assets/images/group_shot.jpeg">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png">
+    <img src="{{ site.baseurl }}assets/images/rainbow.JPG">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png">
-  </figure>
-
-  <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png">
+    <img src="{{ site.baseurl }}assets/images/hands_stock.jpg">
   </figure>
 </div>

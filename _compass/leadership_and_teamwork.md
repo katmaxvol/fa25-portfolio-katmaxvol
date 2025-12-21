@@ -14,7 +14,7 @@ Through this experience, I discovered my passion for teaching, so I have made an
 
 <div class="project-page-figures">
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png">
+    <img src="{{ site.baseurl }}assets/images/canoe_comp_group.jpeg">
   </figure>
 
   <figure>

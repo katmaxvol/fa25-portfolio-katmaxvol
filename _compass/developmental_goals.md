@@ -12,15 +12,11 @@ An effective professional engineer is fundamentally a service provider: someone 
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png">
-  </figure>
-
-  <figure>
     <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png"> 
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png">
   </figure>
 </div>
 
