@@ -1,5 +1,5 @@
 ---
-title: And More
+title: More About Me!
 layout: compass
 order: 7
 image: /assets/images/aircraft_pitch_control_thumbnail.png

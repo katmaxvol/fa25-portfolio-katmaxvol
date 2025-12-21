@@ -1,5 +1,5 @@
 ---
-title: Leadership and Teamwork
+title: Leadership
 layout: compass
 order: 6
 image: /assets/images/aircraft_pitch_control_thumbnail.png
@@ -13,24 +13,19 @@ I have also been a member of the course staff for several CS classes during the 
 Through this experience, I discovered my passion for teaching, so I have made an effort to involve myself in similar types of on-campus roles. I have since been an engineering Peer Advisor and led weekly seminars introducing engineering freshmen to the resources available to them through Cornell, and an AEW facilitator holding weekly workshops supplementing students’ understanding of several core engineering classes.
 
 <div class="project-page-figures">
-
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" alt="Top-Front View">
-    <figcaption>Top-Front View of model, showing major dimensions</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png"
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png" alt="Top View">
-    <figcaption>Top View of model, showing major dimensions</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png"
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" alt="Drive Zoom">
-    <figcaption>Zoom-in of the drive of the torque wrench</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png"
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" alt="Front Zoom">
-    <figcaption>Zoom-in of the front of the torque wrench, with indicated area for strain gauge to be applied</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png"
   </figure>
 </div>

@@ -9,23 +9,19 @@ An effective professional engineer is fundamentally a service provider: someone 
 <div class="project-page-figures">
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png" alt="Top-Front View">
-    <figcaption>Top-Front View of model, showing major dimensions</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png"
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png" alt="Top View">
-    <figcaption>Top View of model, showing major dimensions</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png"
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png" alt="Drive Zoom">
-    <figcaption>Zoom-in of the drive of the torque wrench</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png"
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" alt="Front Zoom">
-    <figcaption>Zoom-in of the front of the torque wrench, with indicated area for strain gauge to be applied</figcaption>
+    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png" 
   </figure>
 </div>
 
