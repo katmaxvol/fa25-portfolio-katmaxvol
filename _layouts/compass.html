@@ -3,10 +3,10 @@ layout: default
 ---
 
 {% assign pages = site.compass | sort: "order" %}
-{% assign current = page.url | remove:'index.html' %}
+{% assign current = page.url | append: '/' %}
 
 {% for p in pages %}
-  {% assign p_url = p.url | remove:'index.html' %}
+  {% assign p_url = p.url | append: '/' %}
   {% if p_url == current %}
     {% assign index = forloop.index0 %}
   {% endif %}
@@ -21,15 +21,18 @@ layout: default
 <p style="color:red;">DEBUG: NAV SHOULD BE BELOW</p>
 
 <nav class="compass-nav">
-  {% if pages[index-1] %}
+  {% if index != nil and pages[index-1] %}
     <a class="prev" href="{{ pages[index-1].url | relative_url }}">
       ← {{ pages[index-1].title }}
     </a>
   {% endif %}
 
-  {% if pages[index+1] %}
+  {% if index != nil and pages[index+1] %}
     <a class="next" href="{{ pages[index+1].url | relative_url }}">
       {{ pages[index+1].title }} →
     </a>
   {% endif %}
 </nav>
+
+<p>Prev test: {{ pages[0].title }}</p>
+<p>Next test: {{ pages[1].title }}</p>
