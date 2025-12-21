@@ -18,6 +18,13 @@ $text-color: #333;
   $text-color: #1e0101;
 }
 
+.compass-content,
+.container,
+.gallery-container,
+.project-gallery {
+  overflow: visible !important;
+  height: auto !important;
+}
 
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
@@ -249,13 +256,13 @@ footer {
   justify-content: space-between;
   margin-top: 2rem;
   padding: 0.5rem 0;
-  color: $text-color !important;
+  color: $primary-color !important;
   position: relative !important;
   z-index: 10 !important;
   height: auto !important;
   min-height: 2rem !important;
-  background: none;  /* remove temporary yellow */
-  border: none;      /* remove temporary red border */
+  background: none;  /* remove yellow */
+  border: none;      /* remove red */
 }
 
 .compass-nav a {
@@ -278,14 +285,4 @@ footer {
 
 .compass-nav a.next::after {
   content: " →";
-}
-
-
-
-.compass-content,
-.container,
-.gallery-container,
-.project-gallery {
-  overflow: visible !important;
-  height: auto !important;
 }
