@@ -248,17 +248,44 @@ footer {
   display: flex !important;
   justify-content: space-between;
   margin-top: 2rem;
-  color: black !important;
+  padding: 0.5rem 0;
+  color: $text-color !important;
   position: relative !important;
   z-index: 10 !important;
-  background: yellow;   /* temporary to see it */
-  border: 1px solid red; /* temporary */
   height: auto !important;
   min-height: 2rem !important;
+  background: none;  /* remove temporary yellow */
+  border: none;      /* remove temporary red border */
 }
 
 .compass-nav a {
-  color: black !important;
+  padding: 0.5rem 1rem;
+  color: $primary-color !important;
   text-decoration: none;
   font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.compass-nav a:hover {
+  background-color: $primary-color;
+  color: $background-color;
+}
+
+.compass-nav a.prev::before {
+  content: "← ";
+}
+
+.compass-nav a.next::after {
+  content: " →";
+}
+
+
+
+.compass-content,
+.container,
+.gallery-container,
+.project-gallery {
+  overflow: visible !important;
+  height: auto !important;
 }
