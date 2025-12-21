@@ -2,7 +2,7 @@
 title: Strengths
 layout: compass
 order: 3
-image: /assets/images/aircraft_pitch_control_thumbnail.png
+image: /assets/images/sunset.jpeg
 ---
 My top strengths include my adaptability, positive outlook, and my communication.
 

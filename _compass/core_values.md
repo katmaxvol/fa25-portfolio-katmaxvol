@@ -2,7 +2,7 @@
 title: Core Values
 layout: compass
 order: 2
-image: /assets/images/aircraft_pitch_control_thumbnail.png
+image: /assets/images/high-five.jpg
 ---
 
 My core values of Achievement, Community, and Curiosity guide how I make decisions, set my goals, and define how I approach challenges in both academic and professional settings.
@@ -17,18 +17,14 @@ As informed by all of these core values, my ideal career would involve strong re
 
 <div class="project-page-figures">
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top-Front View.png">
+    <img src="{{ site.baseurl }}assets/images/grand_canyon.jpeg">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png">
+    <img src="{{ site.baseurl }}assets/images/books.jpg">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png">
-  </figure>
-
-  <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png">
+    <img src="{{ site.baseurl }}assets/images/pasta.jpeg">
   </figure>
 </div>

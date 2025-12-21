@@ -2,7 +2,7 @@
 title: Leadership
 layout: compass
 order: 6
-image: /assets/images/aircraft_pitch_control_thumbnail.png
+image: /assets/images/leadership.jpg
 ---
 My leadership philosophy is that the best leaders prioritize open communication of expectations, since it allows for the most productive work overall for everyone. The best leaders and mentors in my life are always able to describe the objective of particular tasks or approaches and take feedback from those around them to pursue the optimal path.
 
@@ -18,14 +18,10 @@ Through this experience, I discovered my passion for teaching, so I have made an
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Top View.png">
+    <img src="{{ site.baseurl }}assets/images/canoe_destruction.png">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Drive Zoom.png">
-  </figure>
-
-  <figure>
-    <img src="{{ site.baseurl }}assets/images/TW CAD Front Zoom.png">
+    <img src="{{ site.baseurl }}assets/images/teach_back.png">
   </figure>
 </div>
