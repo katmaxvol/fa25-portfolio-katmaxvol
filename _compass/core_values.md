@@ -21,10 +21,10 @@ As informed by all of these core values, my ideal career would involve strong re
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/books.jpg">
+    <img src="{{ site.baseurl }}assets/images/pasta.jpeg">
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}assets/images/pasta.jpeg">
+    <img src="{{ site.baseurl }}assets/images/books.jpg">
   </figure>
 </div>
