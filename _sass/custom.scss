@@ -249,7 +249,12 @@ footer {
   justify-content: space-between;
   margin-top: 2rem;
   color: black !important;
-  background: none;
+  position: relative !important;
+  z-index: 10 !important;
+  background: yellow;   /* temporary to see it */
+  border: 1px solid red; /* temporary */
+  height: auto !important;
+  min-height: 2rem !important;
 }
 
 .compass-nav a {
