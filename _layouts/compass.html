@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: page
 ---
-
-{{ content }}
 
 {% assign pages = site.compass | sort: "order" %}
 {% for p in pages %}
@@ -10,10 +8,6 @@ layout: default
     {% assign index = forloop.index0 %}
   {% endif %}
 {% endfor %}
-
-<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
-
-{{ content }}
 
 <nav class="compass-nav">
   {% if pages[index-1] %}
